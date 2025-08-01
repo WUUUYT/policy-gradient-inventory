@@ -1,0 +1,15 @@
+env:
+  h1: 2.0
+  p1: 5.0
+  # ...
+agent:
+  theta1_init: 20.0
+  theta2_init: 25.0
+  sigma1: 0.6
+  sigma2: 0.6
+  lr: 0.02
+train:
+  T: 100
+  batch_size: 10
+  num_batches: 2400
+  gamma: 0.9
